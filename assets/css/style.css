@@ -1,0 +1,113 @@
+:root {
+    --theme-green:#077b51;
+    --theme-dark-green:#043a30;
+    --theme-light-aqua:#c3fff4;
+  }
+/* root */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    
+    font-family: "Telegraf UltraLight", sans-serif;
+    src: url("assets/fonts/FontsFree-Net-Telegraf-UltraLight-200.ttf") format('truetype');
+}
+*{
+    font-family: "Telegraf UltraLight", sans-serif;
+}
+.bg-green{
+    background-color: var(--theme-green);
+    color: #fff;
+}
+.bg-light-green{
+    background-color: var(--theme-dark-green);
+    color: #fff;
+}
+/* root end */
+
+
+/* footer */
+footer{
+    background-image: linear-gradient(242deg, #63d471 0%, #374044 70%);
+    color: #fff;
+}
+.footer-quick-links{
+    background: transparent;
+}
+.footer-quick-links a{
+    color:#fff;
+}
+.footer-quick-links{
+    border: none;
+}
+.social-border{
+    border: 2px solid #ffffff;
+    transition: all .2s linear;
+}
+.social-border:hover{
+    background-color: #146c43; 
+    color: #fff;
+}
+/* footer end */
+
+/* HOME PAGE */
+    /* section-2  */
+    .custom-nine-column {
+        width: 11.1111111111%;
+    }
+    .step{
+        object-fit: cover;
+        border: none;
+    }
+    /* section-2  end*/
+/* HOME PAGE END */
+
+
+
+/* PARTNER WITH US PAGE */
+    .bg-ts{ 
+            background-color: rgb(255 255 255 / 24%); 
+    }
+    .custom-form-control{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+    }
+    
+    .custom-form-control:focus{ 
+        box-shadow: 3px 14px 8px -4px  rgba(2, 88, 60, 0.774);  
+    }
+/* PARTNER WITH US PAGE END */
+
+/* ABOUT US PAGE */
+    .ab-card{
+        height: 500px;
+    }   
+    .ab_banner_img{
+        width: 600px;
+    }
+    .ab-card-one{
+        transition: background-color .2s linear;
+    }
+    .ab-card-one:hover{
+        background-color: #08925f;
+    }
+    .ab-card-two{
+        transition: background-color .2s linear;
+    }
+    .ab-card-two:hover{
+        background-color: #055647;
+    }
+    .team-box{
+        cursor: pointer;
+    }
+    .team_box_img_container{
+        transition:  all 0.3s linear;
+    }
+    .team-box:hover > .team_box_img_container{
+        transform: scale(1.1);
+    }
+/* ABOUT US PAGE END */

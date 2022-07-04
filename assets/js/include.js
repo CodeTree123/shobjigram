@@ -77,8 +77,8 @@ class MyFooter extends HTMLElement {
                 </p> 
               </div>
           </div>
-          <div class="col-lg-4">
-              <h4>Quick Links</h4>
+          <div class="col-lg-4 mt-sm-3 mt-3">
+          <h4 class="text-center">Quick Links</h4>
               <div class="mt-4">
                 <ul>
                   <li class="list-group-item footer-quick-links">
@@ -95,7 +95,7 @@ class MyFooter extends HTMLElement {
               </div>
           </div>
           <div class="col-lg-4">
-              <h4>Quick Links</h4>
+              <h4 class="text-center">Social Links</h4>
               <div class="mt-4 d-flex justify-content-around">
                 <a href="www.facebook.com" class=" text-decoration-none link-light">
                  <div class="social-border rounded p-2">

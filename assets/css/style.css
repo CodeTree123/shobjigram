@@ -111,6 +111,9 @@ footer{
         object-fit: cover;
         border: none;
     }
+    .card{
+        /* width: 350px; */
+    }
     /* section-2  end*/
 /* HOME PAGE END */
 

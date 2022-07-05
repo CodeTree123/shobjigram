@@ -112,7 +112,7 @@ footer{
         border: none;
     }
     .card{
-        /* width: 350px; */
+        /* width: 350px;.ad */
     }
     /* section-2  end*/
 /* HOME PAGE END */
@@ -137,8 +137,12 @@ footer{
 
 /* ABOUT US PAGE */
     .ab-card{
-        height: 500px;
-    }   
+        height: 90%;
+    }
+    .ab-card-img{
+        height: 100px;
+        width: 100px;
+    }
     .ab_banner_img{
         width: 600px;
     }

@@ -13,13 +13,10 @@
    
     <!-- Fontawsome Icon CDN -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aoss.css" rel="stylesheet">
     <!-- Custom Style -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Shobjigram</title>
-
-
-
+    <title>Shobjigram</title> 
 
     <!-- Common Header -->
     
@@ -29,136 +26,122 @@
   </head>
   <body> 
     
-    <my-header></my-header>
+    <my-header style="z-index: 2;"></my-header>
 
     
-    <div class="container p-0">
+    <div class=" p-0" style="z-index: 1;">
         <section class="banner my-3  ">
-            <div class="row">
-                <div class="col-lg-4 my-auto   "  data-aos="fade-right">
-                    <div class="mb-md-3 mb-sm-3 mb-3 px-sm-3 px-lg-0 px-3 ">
-                      <h3 class="fw-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
-                    <p>Our vision is to build Bangladesh's most efficient and largest Supply Chain platform and improve the lives of producers, businesses, and consumers in a meaningful manner.</p>
-                    <button class="btn btn-success">Learn More</button>
+          <video autoplay muted loop id="myVideo">
+            <source src="assets/video/cover.mp4" type="video/mp4"> 
+          </video>
+          <div class="vidtext text-center">
+            <h2 class="telegraph_ub">Steering Bangladesh to the  forefront of Agriculture 4.0</h2>
+            <h5 class=" text-center text-white telegraph_rg">Driven by AgTech, we are building the shortest farm-to-plate journey while #EmpoweringFarmers</h5>
+            <a href="partner_with_us.html" class="btn btn-light-green vid_btn "> 
+                Learn More 
+            </a>
+          </div> 
+        </section>
+        <section class="container section-1 my-5">
+               <div class="row">
+                <div class="col-lg-6 my-auto   "  data-aos="fade-right">
+                    <div class="mb-md-3 mb-sm-3 mb-3 px-sm-3 px-lg-0 px-3">
+                      <h2 class="text-center telegraph_ub">What is ShobjiGram?</h2>
+                      <p class=" telegraph_rg">Shobjigram is the most impactful intra-national fresh produce supply chain aggregator in Bangladesh. We are transcending the "Last Mile" challenges with cutting-edge data-driven technologies. We ethically source fresh produce from salt-of-the-earth Bangladeshi farmers and deliver it to retailers across major municipal cities under 6 hours</p>
+                        <div class="text-center">
+                          <a href="partner_with_us.html" class="btn btn-light-green vid_btn "> 
+                            Learn More 
+                        </a>
+
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-6">
                     <div>
-                        <img src="assets/img/2.jpg" alt="" class="img-fluid">
+                        <img src="assets/img/collage.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-1 my-5">
-            <div class="text-center"  data-aos="fade-up" 
-                                      data-aos-duration="1000"
-                                      data-aos-once="true">
-                <h2 class="text-center">About US</h2>
-
-                <p class="text-center">We are focused on making the <strong class="text-success">SHOBJIGRAM™</strong> innovation more accessible to the most fragmented parts of society. We intend to leverage our strengths and resources to innovate for new product categories and customer segments while solving complex supply chain problems.</p>
-
-                <button class="btn btn-success "> Know More</button>  
+        
+        <section class="  section-3 my-5 text-center">
+            <div class="highlight p-3">
+              <!-- <h2 class="telegraph_ub" style="z-index: 2;"> Empowering Farmers to Repurpose The 
+                <span class="yellow_tape ">Fresh Produce</span> Supply Chain
+              </h2>  -->
+              <img src="assets/img/highlight_one.PNG" class="img-fluid" alt="">
+           
             </div>
-            <div class="container my-5">
-                <div class="row">
-                    <div class="col-lg-1 custom-nine-column">
-                        <img src="assets/img/step.png" alt="" class="step img-thumbnail">
-                    </div>
-                    <div class="col-lg-1 custom-nine-column">
-                        <img src="assets/img/arrow.png" alt="" class="step img-thumbnail">
-
-                    </div> 
-                    <div class="col-lg-1 custom-nine-column">
-                        <img src="assets/img/step.png" alt="" class="step img-thumbnail">
-                    </div>
-                    <div class="col-lg-1 custom-nine-column">
-                        <img src="assets/img/arrow.png" alt="" class="step img-thumbnail">
-
-                    </div> 
-                    <div class="col-lg-1 custom-nine-column">
-                        <img src="assets/img/step.png" alt="" class="step img-thumbnail">
-                    </div>
-                    <div class="col-lg-1 custom-nine-column">
-                        <img src="assets/img/arrow.png" alt="" class="step img-thumbnail">
-
-                    </div> 
-                    <div class="col-lg-1 custom-nine-column">
-                        <img src="assets/img/step.png" alt="" class="step img-thumbnail">
-                    </div>
-                    <div class="col-lg-1 custom-nine-column">
-                        <img src="assets/img/arrow.png" alt="" class="step img-thumbnail">
-
-                    </div> 
-                    <div class="col-lg-1 custom-nine-column">
-                        <img src="assets/img/step.png" alt="" class="step img-thumbnail">
-                    </div> 
-                </div>
-            </div>
+            <a href="partner_with_us.html" class="btn btn-light-green vid_btn "> 
+              Take the leap!
+          </a> 
         </section>
-        <section class="section-2 my-5 text-center">
-            <h2> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-            <button class="btn btn-success">Join With Us</button> 
-        </section>
-        <section class="section-3  ">
+        <!-- Card Section -->
+        <section class="container section-4  ">
             <div class="px-sm-3 px-lg-0 px-3 ">
-              <h2>Lorem ipsum dolor sit amet.</h2>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, praesentium illo dolore laboriosam repellendus maiores necessitatibus nemo omnis perferendis similique. Atque rerum laborum, cum nulla quos vitae? Similique, labore et.</p>
+              <h2 class="telegraph_ub">Building resilience across the value chain</h2>
+              <p>We are the first fresh produce aggregator in Bangladesh to go the extra mile for smallholders, resellers, and consumers alike.</p>
             </div>
 
             <div>
                 <div class="row my-4 justify-content-center">
-                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-                        <div>
-                            <div class="card p-3" style="width: 18rem;" data-aos="fade-down"
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mb-3">
+                        <div class="info_card">
+                            <div class="card p-3 "   data-aos="fade-down"
                             data-aos-easing="linear"
                             data-aos-duration="500">
-                                <img src="assets/img/step.png" class=" " alt="..." width="80" height="80">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                   
+                                <div class="d-flex align-content-center align-items-center  ">
+                                  <img class="mb-4" src="assets/img/farmer.png" class=" " alt="..." width="100" height="100">
+                                <h5 class=" ms-3 card-title telegraph_rg fw-bold">Empowering Farmers</h5>
                                 </div>
-                                <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">Lorem ipsum dolor sit amet. </li>
-                                  <li class="list-group-item">Lorem ipsum dolor sit amet. </li>
-                                  <li class="list-group-item">Lorem ipsum dolor sit amet. </li>
+
+                                <ul class="card-list-group  list-group list-group-flush">
+                                  <li class="list-group-item">Higher revenue margin  </li>
+                                  <li class="list-group-item">Cut go-to-market cost </li>
+                                  <li class="list-group-item">Same day cash payments </li>
+                                  <li class="list-group-item">Contract farming and Support </li>
                                 </ul> 
                               </div>
                         </div>
                     </div> 
-                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-                        <div>
-                            <div class="card p-3" style="width: 18rem;" data-aos="fade-down"
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mb-3">
+                        <div class="info_card">
+                            <div class="card p-3 "   data-aos="fade-down"
                             data-aos-delay="500"
                             data-aos-easing="linear"
                             data-aos-duration="1000">
-                                <img src="assets/img/step.png" class=" " alt="..." width="80" height="80">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                   
+                                <div class="d-flex align-content-center align-items-center  ">
+                                  <img class="mb-4" src="assets/img/shop.png" class=" " alt="..." width="100" height="100">
+                                <h5 class=" ms-3 card-title telegraph_rg fw-bold">Reseller Perks</h5>
                                 </div>
-                                <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">Lorem ipsum dolor sit amet. </li>
-                                  <li class="list-group-item">Lorem ipsum dolor sit amet. </li>
-                                  <li class="list-group-item">Lorem ipsum dolor sit amet. </li>
+                                
+                                
+
+                                <ul class="card-list-group list-group list-group-flush">
+                                  <li class="list-group-item">Dibs on freshness and quality </li>
+                                  <li class="list-group-item">Adaptive delivery </li>
+                                  <li class="list-group-item">Market competitive prices </li>
+                                  <li class="list-group-item">Higher shelf life </li>
+                                  <li class="list-group-item">Digital procurement portal </li>
                                 </ul> 
                               </div>
                         </div>
                     </div> 
-                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
-                        <div>
-                            <div class="card p-3" style="width: 18rem;" data-aos="fade-down"
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mb-3">
+                        <div class="info_card">
+                            <div class="card p-3 "   data-aos="fade-down"
                             data-aos-easing="linear"
                             data-aos-delay="1000"
                             data-aos-duration="1500">
-                                <img src="assets/img/step.png" class=" " alt="..." width="80" height="80">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                   
-                                </div>
-                                <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">Lorem ipsum dolor sit amet. </li>
-                                  <li class="list-group-item">Lorem ipsum dolor sit amet. </li>
-                                  <li class="list-group-item">Lorem ipsum dolor sit amet. </li>
+                            <div class="d-flex align-content-center align-items-center  ">
+                              <img class="mb-4" src="assets/img/plate.png" class=" " alt="..." width="100" height="100">
+                               
+                                <h5 class=" ms-3 card-title telegraph_rg fw-bold">Consumer Satisfaction</h5>
+                            </div> 
+                                <ul class="card-list-group list-group list-group-flush">
+                                  <li class="list-group-item">Ensured food safety  </li>
+                                  <li class="list-group-item">Farm-to-plate freshness </li>
+                                  <li class="list-group-item">Responsibly sourced </li>
                                 </ul> 
                               </div>
                         </div>
@@ -166,25 +149,67 @@
                 </div>
             </div>
         </section>
-        <section class="section-4   my-5">
-          <div class="row justify-content-between p-lg-0 p-sm-4 p-4">
+        <!-- Number Section -->
+        <section class="section-5   my-5   ">
+          <h1 class="text-center telegraph_ub">First 120-day Operational Milestones</h1>
+          <div class="row mt-5 p-lg-0 mx-0 p-sm-4 p-5 bg-gradient-one">
+            <div class="col-lg-4">
+              <div class="text-center  p-5">
+                <h2 class="telegraph_rg">Famers onboarded</h2>
+                <p class="display-5 glow-text">300+</p>
+               </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="text-center  py-5">
+               <h2 class="telegraph_rg">Total produce delivered</h2>
+               <p class="display-5 glow-text">340000 kg</p>
+              </div> 
+            </div>
+            <div class="col-lg-4">
+              <div class="text-center  p-5">
+                <h2 class="telegraph_rg">Lead time</h2>
+                <p class="display-5 glow-text">6 hrs</p>
+               </div>
+            </div>
+          
+           
+          </div>
+        </section>
+        <!-- Client Section -->
+        <!-- <section class="section-6   my-5">
+          <h1 class="text-center  telegraph_ub">Changemakers who have put their trust in us</h1>
+          <div class="row p-lg-0 p-sm-4 p-4 mt-5 m-5">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12  mt-sm-3 mt-3">
+              <img class="img-fluid" src="assets/img/client-1.png" alt=""> 
+            </div> 
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12  mt-sm-3 mt-3">
+              <img class="img-fluid" src="assets/img/client-1.png" alt=""> 
+            </div> 
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12   mt-sm-3 mt-3">
+              <img class="img-fluid" src="assets/img/client-1.png" alt=""> 
+            </div> 
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12   mt-sm-3 mt-3">
+              <img class="img-fluid" src="assets/img/client-1.png" alt=""> 
+            </div> 
+          </div>
+        </section> -->
+        <section class="section-7   my-5">
+          <div class="row justify-content-between m-0 p-lg-0 p-sm-4 p-4">
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 my-lg-4 my-md-4 my-sm-4 my-4  text-center">
-              <a href="#" class="text-decoration-none ">
-                <div class="py-5 border rounded link-dark">
-                  <h2>Lorem ipsum dolor sit amet.  
+              <a href="partner_with_us.html" class=" text-decoration-none ">
+                <div class="py-5 border rounded link-dark hover_box">
+                  <h2>Empower Your Agro Business
                      <i class="bi bi-arrow-right-circle"></i>
-                  </h2>
-                  <span>Lorem ipsum dolor sit amet.</span>
+                  </h2> 
                 </div>
               </a>
             </div>
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 my-lg-4 my-md-4 my-sm-4 my-4  text-center">
-              <a href="#" class="text-decoration-none "> 
-              <div class="py-5 border rounded link-dark">
-                <h2>Lorem ipsum dolor sit amet.
+              <a href="partner_with_us.html" class=" text-decoration-none "> 
+              <div class="py-5 border rounded link-dark hover_box">
+                <h2>Fast delivery of fresh produce
                    <i class="bi bi-arrow-right-circle"></i>
-                 </h2>
-                 <span>Lorem ipsum dolor sit amet.</span>
+                 </h2> 
               </div>
             </a> 
             </div>
@@ -196,7 +221,7 @@
      <my-footer></my-footer>
     
     <div class="d-flex justify-content-center bg-dark text-white py-3">
-      <h4>Developed By CODETREE</h4>
+      <h6>Developed By CODETREE</h6>
     </div> 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

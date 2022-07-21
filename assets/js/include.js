@@ -5,7 +5,7 @@ class MyHeader extends HTMLElement {
         <header class="shadow bg-dark">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="https://shobjigram.com/">
                     <img src="assets/img/shobjigram.png" alt="" width="80" height="80">
                 </a>
     
@@ -13,25 +13,17 @@ class MyHeader extends HTMLElement {
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 telegraph_rg fw-bold" >
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link " aria-current="page" href="https://shobjigram.com/">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="about_us.html">About Us</a>
+                    <a class="nav-link" href="https://shobjigram.com/about_us.html">About Us</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li> 
+                  
                 </ul> 
     
-                  <a class="btn btn-outline-success" href="partner_with_us.html">
+                  <a class="btn btn-outline-success" href="https://shobjigram.com/partner_with_us.html">
                     Partner With Us
                  </a>
     
@@ -51,8 +43,8 @@ class MyFooter extends HTMLElement {
         <footer class="   py-5 px-5">
         <div class="row ">
           <div class="col-lg-4">
-            <h4>Company Contact Information</h4>
-              <div class="mt-4">
+            <h4 class="telegraph_rg">Company Contact Information</h4>
+              <div class="mt-4 telegraph_ul">
                 <p class="m-0">
                   <span class="fw-bold">ShobjiGram</span> 
                    is a concern of Eureka Group
@@ -77,27 +69,27 @@ class MyFooter extends HTMLElement {
                 </p> 
               </div>
           </div>
-          <div class="col-lg-4 mt-sm-3 mt-3">
-          <h4 class="text-center">Quick Links</h4>
+          <div class="col-lg-4  mt-lg-0 mt-md-0 mt-sm-3 mt-3">
+          <h4 class="text-center telegraph_rg">Quick Links</h4>
               <div class="mt-4">
-                <ul>
+                <ul class="telegraph_ul">
                   <li class="list-group-item footer-quick-links">
-                    <a href="index.html" class="link-dark text-decoration-none">Home</a>
+                    <a href="https://shobjigram.com/" class="link-dark text-decoration-none">Home</a>
                   </li>
                   <li class="list-group-item footer-quick-links">
-                    <a href="about_us.html" class="link-dark text-decoration-none">About Us</a>
+                    <a href="https://shobjigram.com/about_us.html" class="link-dark text-decoration-none">About Us</a>
                   </li>
                   <li class="list-group-item footer-quick-links">
-                    <a href="partner_with_us.html" class="link-dark text-decoration-none">Partner With Us</a>
+                    <a href="https://shobjigram.com/partner_with_us.html" class="link-dark text-decoration-none">Partner With Us</a>
                   </li>
                   
                 </ul>
               </div>
           </div>
           <div class="col-lg-4">
-              <h4 class="text-center">Social Links</h4>
+              <h4 class="text-center telegraph_rg">Social Links</h4>
               <div class="mt-4 d-flex justify-content-around">
-                <a href="www.facebook.com" class=" text-decoration-none link-light">
+                <a href="https://www.facebook.com/shobjigram/" class=" text-decoration-none link-light">
                  <div class="social-border rounded p-2">
                     <i class="fa-brands fa-facebook-f fa-xl"></i>
                  </div>
@@ -112,7 +104,7 @@ class MyFooter extends HTMLElement {
                   <i class="fa-brands fa-instagram  fa-xl"></i>
                 </div>
               </a>
-              <a href="www.youtube.com" class="text-decoration-none link-light">
+              <a href="https://www.youtube.com/channel/UCW75s_FxA6MnTy43YEQH_eQ" class="text-decoration-none link-light">
                  <div class="social-border rounded p-2">
                   <i class="fa-brands fa-youtube  fa-xl"></i>
                 </div>

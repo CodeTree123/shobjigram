@@ -1,21 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 :root {
     --theme-green:#077b51;
     --theme-dark-green:#043a30;
     --theme-light-aqua:#c3fff4;
+    --theme-light-green:#67b247;
+    
   }
 /* root */
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
 }
 @font-face{
     
-    font-family: "Telegraf UltraLight", sans-serif;
-    src: url("assets/fonts/FontsFree-Net-Telegraf-UltraLight-200.ttf") format('truetype');
+    font-family: "PP Telegraf", sans-serif;
+    src: url("assets/fonts/PPTelegraf-Regular.otf") format('opentype');
 }
-*{
-    font-family: "Telegraf UltraLight", sans-serif;
+@font-face{    
+    font-family: "PP Telegraf Regular", sans-serif; 
+    src: url("../fonts/PPTelegraf-Regular.otf") format('opentype');
+}
+
+@font-face{
+    
+    font-family: "PP Telegraf UltraBold", sans-serif;
+    src: url("../fonts/PPTelegraf-UltraBold.otf") format('opentype');
+}
+@font-face{
+    
+    font-family: "PP Telegraf UltraLight", sans-serif;
+    src: url("../fonts/PPTelegraf-UltraLight.otf") format('opentype');
+}
+*{ 
+    /* font-family: "PP Telegraf", sans-serif;  */
+}
+/* FONT DECLARATION */
+.telegraph_ub{
+    font-family: "PP Telegraf UltraBold", sans-serif; 
+    font-weight: 800;
+}
+.telegraph_rg{
+    font-family: "PP Telegraf Regular", sans-serif; 
+    font-weight: 400;
+}
+.telegraph_ul{    
+    font-family: "PP Telegraf UltraLight", sans-serif;
+    font-weight: 200;
+}
+.card-list-group{
+    
+}
+/* FONT DECLARATION END */
+.btn-light-green{
+    background-color: var(--theme-light-green);
+    color: #fff;
 }
 .bg-green{
     background-color: var(--theme-green);
@@ -25,9 +66,36 @@ body{
     background-color: var(--theme-dark-green);
     color: #fff;
 }
+.yellow_tape{
+    background-image: url('../img/yellow_tap.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding: 15px 15px 0px 15px;
+    z-index: 1;
+}
 /* root end */
+/* marble bg */
+.marble{
+    background-image: url('../img/marble.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.highlight{ 
+     /* background-image: url('../img/highlight_one.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;  */
+}
+/* info card */
+.info_card{ 
+    height: 100%;
 
+    /* height: 380px; */
+}
+.info_card .card{ 
+    height: 100%;
 
+}
+/* info card end */
 /* footer */
 footer{
     background-image: linear-gradient(242deg, #63d471 0%, #374044 70%);
@@ -38,6 +106,10 @@ footer{
 }
 .footer-quick-links a{
     color:#fff;
+}
+.footer-quick-links a:hover{
+    color:#fff;
+    text-decoration: underline;
 }
 .footer-quick-links{
     border: none;
@@ -103,6 +175,138 @@ footer{
 /* footer end */
 
 /* HOME PAGE */
+.banner{
+    position: relative;
+}
+.vidtext{
+    width: 30%;
+    /* height: 300px; */
+    position: absolute;
+    top: 12%;
+    left: 10%;
+}
+
+@media screen and (max-width: 1024px){ 
+    .vidtext {
+        top: 28%;
+        left: 8%;
+        width: 35%;
+    }
+    .vidtext h2{
+        font-size: 25px;
+    }
+    .vidtext h5{
+        font-size: 20px;
+    }
+    .vid_btn{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 768px){ 
+    .vidtext{ 
+        width: 35%;
+        top:4%;
+        
+    }
+    .vidtext h2{
+        font-size: 20px;
+    }
+    .vidtext h5{
+        font-size: 15px;
+    }
+    .vid_btn{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 425px){ 
+    .vidtext{ 
+        width: 51%;
+        top:3%;
+        left: 4%;
+        
+    }
+    .vidtext h2{
+        font-size: 13px;
+    }
+    .vidtext h5{
+        font-size: 10px;
+    }
+    .vid_btn{
+        font-size: 10px;
+        padding: 0 5px 0 5px;
+    }
+}
+@media screen and (max-width: 320px){ 
+    .vidtext{ 
+        width: 51%;
+        top:3%;
+        left: 4%;
+        
+    }
+    .vidtext h2{
+        font-size: 13px;
+    }
+    .vidtext h5{
+        font-size: 10px;
+    }
+    .vid_btn{
+        font-size: 10px;
+        padding: 0 5px 0 5px;
+    }
+}
+/* Header  */
+.navbar-light .navbar-nav .nav-link {
+    color: #077b51;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #077b51;
+    margin: auto;
+    display: block;
+}
+.navbar-light .navbar-nav .nav-link:hover::after {
+    width: 100%;
+    transition: all 0.2s linear;
+}
+
+ 
+ 
+
+/* Header End */
+.vidtext h2{
+    /* font-size: 2rem; */
+
+}
+ .vidtext h5{ 
+    /* font-size: 1rem; */
+}
+
+#myVideo {
+    /* position: fixed; */
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%; 
+
+  }
+  @media(min-aspect-radio: 16/9){
+    #myVideo{
+        width: 100%;
+        height: auto;
+    }
+  }
+  @media(max-aspect-radio: 16/9){
+    #myVideo{
+        width: auto;
+        height: 100%;
+    }
+  }
+.card-list-group{
+    list-style-type: disc !important;
+}
     /* section-2  */
     .custom-nine-column {
         width: 11.1111111111%;
@@ -111,15 +315,39 @@ footer{
         object-fit: cover;
         border: none;
     }
+    /* section-2  end*/
     .card{
         /* width: 350px;.ad */
     }
-    /* section-2  end*/
+    /* section-3 */
+    .bg-gradient-one{
+        background: linear-gradient(90deg, #d2f3c8 0%, #4a7564 100%);
+    }
+    .glow-text{ 
+        font-family: 'Bangers', cursive;
+        color: #fff; 
+        text-shadow: 4px 1px 15px rgba(58,190,51,1);
+    }
+    /* section-3 end*/
+    .hover_box{
+        background-color: #ffffff;
+        transition: all 0.9s;
+    }
+    .hover_box:hover{
+        background-color: #008037;
+        color: #fff;
+    }
+
 /* HOME PAGE END */
 
 
 
 /* PARTNER WITH US PAGE */
+ #partner_title{ 
+ }
+ #partner_text{ 
+ }
+
     .bg-ts{ 
             background-color: rgb(255 255 255 / 24%); 
     }
@@ -136,15 +364,25 @@ footer{
 /* PARTNER WITH US PAGE END */
 
 /* ABOUT US PAGE */
+.ab{    
+  
+}
+
+.ab-cart-list{
+     
+}  
     .ab-card{
         height: 90%;
+        cursor: pointer;
     }
     .ab-card-img{
         height: 100px;
         width: 100px;
     }
     .ab_banner_img{
-        width: 600px;
+        width: 400px;
+    }
+    .ab_banner_img:hover{ 
     }
     .ab-card-one{
         transition: background-color .2s linear;
@@ -166,5 +404,18 @@ footer{
     }
     .team-box:hover > .team_box_img_container{
         transform: scale(1.1);
+    }
+    .ab_v{
+        height: fit-content;
+    }
+    .h4_bg{
+        margin-bottom: 0;
+        padding: 10px;
+    }
+    #h4_1{
+        background-color: #008037;
+    }
+    #h4_2{
+        background-color: #9fc1da;  
     }
 /* ABOUT US PAGE END */

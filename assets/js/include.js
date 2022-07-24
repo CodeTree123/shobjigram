@@ -5,7 +5,7 @@ class MyHeader extends HTMLElement {
         <header class="shadow bg-dark">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="https://shobjigram.com/">
+                <a class="navbar-brand" href="/">
                     <img src="assets/img/shobjigram.png" alt="" width="80" height="80">
                 </a>
     
@@ -15,15 +15,15 @@ class MyHeader extends HTMLElement {
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 telegraph_rg fw-bold" >
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="https://shobjigram.com/">Home</a>
+                    <a class="nav-link " aria-current="page" href="/">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="https://shobjigram.com/about_us.html">About Us</a>
+                    <a class="nav-link" href="/about_us.html">About Us</a>
                   </li>
                   
                 </ul> 
     
-                  <a class="btn btn-outline-success" href="https://shobjigram.com/partner_with_us.html">
+                  <a class="btn btn-outline-success" href="/partner_with_us.html">
                     Partner With Us
                  </a>
     
@@ -74,13 +74,13 @@ class MyFooter extends HTMLElement {
               <div class="mt-4">
                 <ul class="telegraph_ul">
                   <li class="list-group-item footer-quick-links">
-                    <a href="https://shobjigram.com/" class="link-dark text-decoration-none">Home</a>
+                    <a href="/" class="link-dark text-decoration-none">Home</a>
                   </li>
                   <li class="list-group-item footer-quick-links">
-                    <a href="https://shobjigram.com/about_us.html" class="link-dark text-decoration-none">About Us</a>
+                    <a href="/about_us.html" class="link-dark text-decoration-none">About Us</a>
                   </li>
                   <li class="list-group-item footer-quick-links">
-                    <a href="https://shobjigram.com/partner_with_us.html" class="link-dark text-decoration-none">Partner With Us</a>
+                    <a href="/partner_with_us.html" class="link-dark text-decoration-none">Partner With Us</a>
                   </li>
                   
                 </ul>

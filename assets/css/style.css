@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
     --theme-green:#077b51;
     --theme-dark-green:#043a30;
@@ -35,19 +37,16 @@ body{
     src: url("../fonts/PPTelegraf-UltraLight.otf") format('opentype');
 }
 *{ 
-    /* font-family: "PP Telegraf", sans-serif;  */
+    font-family: 'Raleway', sans-serif;
 }
 /* FONT DECLARATION */
-.telegraph_ub{
-    font-family: "PP Telegraf UltraBold", sans-serif; 
+.telegraph_ub{ 
     font-weight: 800;
 }
-.telegraph_rg{
-    font-family: "PP Telegraf Regular", sans-serif; 
+.telegraph_rg{ 
     font-weight: 400;
 }
-.telegraph_ul{    
-    font-family: "PP Telegraf UltraLight", sans-serif;
+.telegraph_ul{     
     font-weight: 200;
 }
 .card-list-group{
@@ -79,6 +78,9 @@ body{
     background-image: url('../img/marble.png');
     background-size: cover;
     background-repeat: no-repeat; 
+}
+.navbar-brand{
+    width: 200px;
 }
 .highlight{ 
      /* background-image: url('../img/highlight_one.PNG');
@@ -347,9 +349,14 @@ footer{
  }
  #partner_text{ 
  }
+ .bg-team{
+    background-image: url("../img/image_50432769_low_op.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
 
     .bg-ts{ 
-            background-color: rgb(255 255 255 / 24%); 
+        background-color: rgb(7 123 81 / 48%);
     }
     .custom-form-control{
         border-top: none;
@@ -380,7 +387,7 @@ footer{
         width: 100px;
     }
     .ab_banner_img{
-        width: 400px;
+        width: 700px;
     }
     .ab_banner_img:hover{ 
     }
@@ -417,5 +424,9 @@ footer{
     }
     #h4_2{
         background-color: #9fc1da;  
+    }
+    .globe_gif{
+        /* width: 400px; */
+
     }
 /* ABOUT US PAGE END */
